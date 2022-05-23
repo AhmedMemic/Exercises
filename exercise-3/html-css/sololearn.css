@@ -38,7 +38,7 @@ h2{
   background: #468486;
 }
 
-.submenu {
+/*.submenu {
   position: absolute;
   left: 46%;
   transform: translate (-50%, 0);
@@ -47,7 +47,6 @@ h2{
   min-width: 160px;
   border-radius: 5px;
   box-shadow: 0 8px 16px 0 rgba(0 0 0 0.2);
-  display: none;
 }
 .submenu a {
   color: white;
@@ -57,7 +56,7 @@ h2{
 }
 .submenu a:hover {
   background-color: #468486;
-}
+}*/
 
 section {
   padding: 40px 0;
@@ -66,16 +65,23 @@ section {
 
 .features {
   background: #FFFFFF;
-  color: #000000;
 }
 .feature {
   display: inline-block;
   width: 32%;
-  font-size: 16px;
+  font-size: 20px;
 }
-
 .feature img {
-  width: 32%;
+  width: 80%;
+}
+.feature p {
+  background-color: #549DA0;
+  color: white;
+  padding: 10px;
+  border-radius: 10%;
+}
+.feature p:hover {
+  background-color: #468486;
 }
 
 .quote {
@@ -95,7 +101,7 @@ blockquote p {
 }
 
 blockquote cite {
-  font-size: 16px;
+  font-size: 20px;
   font-style: italic;
 }
 
@@ -108,7 +114,7 @@ footer {
   padding: 32px 0;
   text-align: center;
   color: #868686;
-  font-size: 12px;
+  font-size: 18px;
 }
 footer ul {
   margin: 0;
@@ -120,7 +126,7 @@ footer li {
 }
 footer li a {
   padding: 6px;
-  font-size: 14px;
+  font-size: 18px;
   text-decoration: none;
   color: #c3c3c3;
 }
@@ -142,7 +148,7 @@ footer li a:hover {
       margin: 0 0 8px 0;
   }
   h2 {
-      font-size: 18px;
+      font-size: 20px;
   }
   section {
       padding: 25px 0 15px 0;
@@ -155,7 +161,7 @@ footer li a:hover {
       justify-content: center;
       text-align: left;
       margin: 0 0 10px 0;
-      font-size: 16px;
+      font-size: 18px;
   }
   .feature img {
       width: 15%;
@@ -167,10 +173,10 @@ footer li a:hover {
       padding: 30px 0;
   }
   blockquote p {
-      font-size: 18px;
+      font-size: 20px;
   }
   blockquote cite {
-      font-size: 14px;
+      font-size: 16px;
   }
   footer {
       padding: 30px 0 10px 0;
