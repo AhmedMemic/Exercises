@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My landing page</title>
+    <link rel="stylesheet" href="/exercise-3/html-css/sololearn.css">
+    <script src="http://code.jquery.com/jquery-3.6.0.js">
+          $(function() {
+            $(".btn").click(function() { 
+              $(".submenu").slideToggle(500);
+            });
+          }); 
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="containter">
+        <h1>Awsome App</h1>
+        <h2>This App will change your life!</h2>
+        <a class="btn">Download Now</a>
+      </div>
+      <div class="submenu">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+      </div>
+    </header>
+    <section class="features">
+      <div class="container">
+        <div class="feature">
+          <img src="" alt="" />
+          <p>An awsome feature</p>
+        </div>
+        <div class="feature">
+          <img src="" alt="" />
+          <p>An awsome feature</p>
+        </div>
+        <div class="feature">
+          <img src="" alt="" />
+          <p>An awsome feature</p>
+        </div>
+      </div>
+    </section>
+    <section class="quote">
+      <blockquote class="container">
+        <p>"Some great quote!"</p>
+        <cite>Satisfied Customer</cite>
+      </blockquote>
+    </section>
+    <footer>
+      <div class="container">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contacfs</a></li>
+        </ul>
+      </div>
+      <p>© All rights reserved</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 30px;
+}
+
+.sidebar-icon {
+  width: 50px;
+}
+.home-icon {
+  width: 25px;
+  cursor: pointer;
+}
+.explore-icon {
+  width: 25px;
+  cursor: pointer;
+}
+.subsc-icon {
+  width: 25px;
+  cursor: pointer;
+}
+.originals-icon {
+  width: 25px;
+  cursor: pointer;
+}
+.yt-music-icon {
+  width: 25px;
+  cursor: pointer;
+}
+.library-icon {
+  width: 25px;
+  cursor: pointer;
+}

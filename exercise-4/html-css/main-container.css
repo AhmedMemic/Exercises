@@ -1,0 +1,29 @@
+.main-container {
+  display: flex;
+}
+
+.container {
+}
+
+.thumbnail {
+  width: 400px;
+}
+
+.mini-container {
+  display: flex;
+}
+
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  margin: 10px 10px 0 0;
+}
+
+.video-name {
+  width: 80%;
+}
+
+.author-views {
+  color: grey;
+}

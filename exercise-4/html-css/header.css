@@ -1,0 +1,77 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid rgb(172, 171, 171);
+  position: fixed 0 0 0 0;
+
+}
+
+.left-section {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 60px;
+  padding-left: 15px;
+}
+
+.ham-menu {
+  width: 25px;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.yt-logo {
+  width: 90px;
+  cursor: pointer;
+}
+
+.mid-section {
+  display: flex;
+}
+
+input {
+  border: 1px solid rgb(172, 171, 171);
+  font-size: 15px;
+  padding: 5px 0 5px 10px;
+  border-radius: 3px;
+  flex: 1;
+  width: 10px;
+}
+
+.search-icon{
+  width: 25px;
+  background-color: rgb(241, 241, 241);
+  border: 1px solid rgb(172, 171, 171);
+  padding: 5px 15px 5px 15px;
+  margin-left: -1px;
+}
+
+.voice-search {
+  width: 25px;
+  padding-left: 15px;
+}
+
+.right-section {
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+  padding-right: 20px;
+}
+
+.upload-icon {
+  width: 25px;
+}
+
+.yt-apps {
+  width: 25px;
+}
+
+.notification-icon {
+  width: 25px;
+  position: relative;
+}
+
+.my-channel {
+  width: 30px;
+}
